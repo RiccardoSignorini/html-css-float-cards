@@ -34,11 +34,7 @@ div{
     background-color: black;
     color: white;
     height: 65px;
-}
-div::after{
-    content: "";
-    display: table;
-    clear: both;
+    margin-bottom: 30px;
 }
 
 table, div{
@@ -55,15 +51,23 @@ img{
     color: cornflowerblue;
 }
 
-.flot-left{
-    float: left;
-    margin-right: 50px;
-}
-
 .float-right{
     float: right;
 }
 
+.centre-card{
+    margin-left: 5%;
+}
+
 table{
     font-size: 12px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    
+}
+
+table::after{
+    content: "";
+    display: table;
+    clear: both;
 }
