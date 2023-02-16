@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* SECTION 1 */
@@ -21,7 +22,37 @@ h1{
 }
 
 /* SECTION 2 */
-table{
-    display: inline-block;
+div{
+    width: 25%;
+    float: left;
+    background-color: black;
+    color: white;
+    height: 65px;
+}
+div::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
+table, div{
+    display: inline-block;
+
+}
+
+img{
+    width: 65px;
+    height: 65px;
+}
+
+.color-blue{
+    color: cornflowerblue;
+}
+
+.flot-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
