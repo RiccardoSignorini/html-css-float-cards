@@ -1,0 +1,27 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SECTION 1 */
+h1{
+    font-family: 'Fredoka One', cursive;
+    padding-top: 50px;
+    color: deeppink;
+    font-size: 36px;
+}
+
+#centre-text, h1{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* SECTION 2 */
+table{
+    display: inline-block;
+}
+
